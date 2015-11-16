@@ -11,7 +11,7 @@ print("")
 play=input("press 'p' to play or 'q' to quit ")
 while play!=q:
     if play==p:
-        #levels
+        ##levels
     elif play!=p:
         print("Did not understand, try again.")
         play=input("press 'p' to play or 'q' to quit ")
