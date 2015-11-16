@@ -49,10 +49,12 @@ while play!='q':
                 lvl=lv
         while lvl==1:
             print("")
+            print("Level 1:Banquo and the Witches")
             lv2num=True
             lvl=0
         while lvl==1:
             print("")
+            print("Level 2:Macbeth and the Murder")
             lv3num=True
             lvl=0
         while lvl==3:
