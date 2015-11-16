@@ -11,7 +11,13 @@ play=input("press 'p' to play or 'q' to quit ")
 print("")
 while play!='q':
     if play=='p':
+        print("Select level")
         print("")
+        print("Level 1:Banquo and the Witches")
+        print("")
+        print("Level 2:Macbeth and the Murder")
+        print("")
+        print("Level 3:Macduff and the Battle")
     elif play!='p':
         print("Did not understand, try again.")
         play=input("press 'p' to play or 'q' to quit ")
