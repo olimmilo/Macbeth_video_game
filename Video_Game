@@ -12,7 +12,6 @@ lv1num=True
 lv2num=False
 lv3num=False
 lvl=0
-quit0=r
 while play!='q':
     print("")
     if play=='p':
@@ -21,7 +20,7 @@ while play!='q':
                 quit0=input("Press 'q' if you want to quit ")
                 if quit0=='q':
                    play='q'
-            if play!=q:
+            if play!='q':
                 print("Select level")
                 print("")
                 print("Level 1:Banquo and the Witches")
