@@ -10,12 +10,12 @@ print("")
 play=input("press 'p' to play or 'q' to quit ")
 print("")
 while play!='q':
-    lv1num=True
-    lv2num=False
-    lv3num=False
-    lvl=0
     if play=='p':
-        while lvl==0
+        lv1num=True
+        lv2num=False
+        lv3num=False
+        lvl=0
+        while lvl==0:
             print("Select level")
             print("")
             print("Level 1:Banquo and the Witches")
@@ -24,26 +24,30 @@ while play!='q':
             print("")
             print("Level 3:Macduff and the Battle")
             print("")
-            if lv1num=True:
-                lv=int(input("Level #: "))
-                while lv!=1:
-                    print("You are not permitted to access this level until you complete the former ones")
-                    lv=input("Level #: ")
-                lvl=lv
-            if lv2num=True:
-                lv=input("Level #: ")
-                while lv!=1 or 2:
-                    print("You are not permitted to access this level until you complete the former ones")
-                    lv=input("Level #: ")
-                lvl=lv
-            if lv3num=True:
+            if lv3num==True:
                 lv=input("Level #: ")
                 while lv!=1 or 2 or 3:
                     print("You are not permitted to access this level until you complete the former ones")
                     lv=input("Level #: ")
                 lvl=lv
-            l
-            l
+            elif lv2num==True:
+                lv=input("Level #: ")
+                while lv!=1 or 2:
+                    print("You are not permitted to access this level until you complete the former ones")
+                    lv=input("Level #: ")
+                lvl=lv
+            elif lv1num==True:
+                lv=int(input("Level #: "))
+                while lv!=1:
+                    print("You are not permitted to access this level until you complete the former ones")
+                    lv=input("Level #: ")
+                lvl=lv
+            while lvl==1:
+                print("")
+            while lvl==1:
+                print("")
+            while lvl==3:
+                print("")
     elif play!='p':
         print("Did not understand, try again.")
         play=input("press 'p' to play or 'q' to quit ")
