@@ -1,2 +1,3 @@
 print("Welcome to Macbeth: The Game")
-
+print("")
+play=input("press 'p' to play or 'q' to quit ")
