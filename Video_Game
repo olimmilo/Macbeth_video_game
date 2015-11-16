@@ -2,17 +2,18 @@ print("╔╦╦╦═╦╗╔═╦═╦══╦═╗   ╔╦═╗ ║")
 print("║║║║╩╣╚╣═╣║║║║║╩╣  ═╝║║║")
 print("╚══╩═╩═╩═╩═╩╩╩╩═╝   ╚╩═╝ ║")
 print("")
-print("             ╭╮    ╭╮╭╮")
+print("             ╭╮   ╭╮╭╮")
 print("╭━━┳━╮╭━┫╰┳━┫╰┫╰╮")
 print("┃┃┃┃╋╰┃━┫┃┃┻┫╭┫┃┃")
 print("╰┻┻┻━━┻━┻━┻╯╰━┻┻╯")
 print("")
 play=input("press 'p' to play or 'q' to quit ")
-while play!=q:
-    if play==p:
+print("")
+while play!='q':
+    if play=='p':
         print("")
-    elif play!=p:
+    elif play!='p':
         print("Did not understand, try again.")
         play=input("press 'p' to play or 'q' to quit ")
-if play==q:
+if play=='q':
     print("Goodbye!")
