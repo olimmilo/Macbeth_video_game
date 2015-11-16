@@ -10,12 +10,17 @@ print("")
 play=input("press 'p' to play or 'q' to quit ")
 while play!='q':
     print("")
+    lv1num=True
+    lv2num=False
+    lv3num=False
+    lvl=0
     if play=='p':
-        lv1num=True
-        lv2num=False
-        lv3num=False
-        lvl=0
         while lvl==0:
+            if lv2num==True:
+                quit0=input("Press 'q' if you want to quit")
+                if quit0=='q':
+                   lvl=='done'
+                   play=='q'
             print("Select level")
             print("")
             print("Level 1:Banquo and the Witches")
@@ -42,12 +47,16 @@ while play!='q':
                     print("You are not permitted to access this level until you complete the former ones")
                     lv=int(input("Level #: "))
                 lvl=lv
-            while lvl==1:
-                print("")
-            while lvl==1:
-                print("")
-            while lvl==3:
-                print("")
+        while lvl==1:
+            print("")
+            lv2num=True
+            lvl=0
+        while lvl==1:
+            print("")
+            lv3num=True
+            lvl=0
+        while lvl==3:
+            print("")
     elif play!='p':
         print("Did not understand, try again.")
         print("")
