@@ -59,6 +59,8 @@ while play!='q':
             lvl=0
         while lvl==3:
             print("")
+            print("Level 3:Macduff and the Battle")
+            lvl=0
     elif play!='p':
         print("Did not understand, try again.")
         print("")
