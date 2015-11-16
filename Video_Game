@@ -6,12 +6,11 @@ print("             ╭╮    ╭╮╭╮")
 print("╭━━┳━╮╭━┫╰┳━┫╰┫╰╮")
 print("┃┃┃┃╋╰┃━┫┃┃┻┫╭┫┃┃")
 print("╰┻┻┻━━┻━┻━┻╯╰━┻┻╯")
-print("Macbeth: The Game")
 print("")
 play=input("press 'p' to play or 'q' to quit ")
 while play!=q:
     if play==p:
-        ##levels
+        print("")
     elif play!=p:
         print("Did not understand, try again.")
         play=input("press 'p' to play or 'q' to quit ")
