@@ -12,41 +12,42 @@ lv1num=True
 lv2num=False
 lv3num=False
 lvl=0
+quit0=r
 while play!='q':
     print("")
     if play=='p':
         while lvl==0:
             if lv2num==True:
-                quit0=input("Press 'q' if you want to quit")
+                quit0=input("Press 'q' if you want to quit ")
                 if quit0=='q':
-                   lvl='done'
                    play='q'
-            print("Select level")
-            print("")
-            print("Level 1:Banquo and the Witches")
-            print("")
-            print("Level 2:Macbeth and the Murder")
-            print("")
-            print("Level 3:Macduff and the Battle")
-            print("")
-            if lv3num==True:
-                lv=int(input("Level #: "))
-                while lv!=1 or 2 or 3:
-                    print("You are not permitted to access this level until you complete the former one(s)")
+            if play!=q:
+                print("Select level")
+                print("")
+                print("Level 1:Banquo and the Witches")
+                print("")
+                print("Level 2:Macbeth and the Murder")
+                print("")
+                print("Level 3:Macduff and the Battle")
+                print("")
+                if lv3num==True:
                     lv=int(input("Level #: "))
-                lvl=lv
-            elif lv2num==True:
-                lv=int(input("Level #: "))
-                while lv!=1 or 2:
-                    print("You are not permitted to access this level until you complete the former one(s)")
+                    while lv!=1 or 2 or 3:
+                        print("You are not permitted to access this level until you complete the former one(s)")
+                        lv=int(input("Level #: "))
+                    lvl=lv
+                elif lv2num==True:
                     lv=int(input("Level #: "))
-                lvl=lv
-            elif lv1num==True:
-                lv=int(input("Level #: "))
-                while lv!=1:
-                    print("You are not permitted to access this level until you complete the former one(s)")
+                    while lv!=1 or 2:
+                        print("You are not permitted to access this level until you complete the former one(s)")
+                        lv=int(input("Level #: "))
+                    lvl=lv
+                elif lv1num==True:
                     lv=int(input("Level #: "))
-                lvl=lv
+                    while lv!=1:
+                        print("You are not permitted to access this level until you complete the former one(s)")
+                        lv=int(input("Level #: "))
+                    lvl=lv
         while lvl==1:
             print("")
             print("Level 1:Banquo and the Witches")
