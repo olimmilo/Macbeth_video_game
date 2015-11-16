@@ -10,6 +10,9 @@ print("")
 play=input("press 'p' to play or 'q' to quit ")
 print("")
 while play!='q':
+    lv1num=True
+    lv2num=False
+    lv3num=False
     if play=='p':
         print("Select level")
         print("")
