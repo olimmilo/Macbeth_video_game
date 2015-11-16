@@ -9,10 +9,11 @@ print("╰┻┻┻━━┻━┻━┻╯╰━┻┻╯")
 print("Macbeth: The Game")
 print("")
 play=input("press 'p' to play or 'q' to quit ")
-while play==p:
-    #levels
-elif play!=p and play!=q:
-    print("Did not understand, try again.")
-    play=input("press 'p' to play or 'q' to quit ")
-elif play==q:
+while play!=q:
+    if play==p:
+        #levels
+    elif play!=p:
+        print("Did not understand, try again.")
+        play=input("press 'p' to play or 'q' to quit ")
+if play==q:
     print("Goodbye!")
