@@ -7,5 +7,6 @@ input("")
 print("The trail ahead is blocked by a large branch")
 input("")
 overaroundturn=input("Press 'o' to go over, 'a' to go around, or 't' to go around")
-while overaroundturn!=o or overaroundturn!=a or overaroundturn!=t:
-    
+while overaroundturn!='o' or overaroundturn!='a' or overaroundturn!='t':
+    print("Press a different key")
+    overaroundturn=input("Press 'o' to go over, 'a' to go around, or 't' to go around")
