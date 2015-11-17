@@ -1,4 +1,6 @@
 print("You are Banquo, the friend of Macbeth thane of Glamis.")
 print("")
 print("You are returning home from battle against the Norwegiens with Macbeth")
+print("")
+print("You are riding horse back beside Macbeth on a mountain trail")
 print
