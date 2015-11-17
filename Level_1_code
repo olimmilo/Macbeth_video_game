@@ -1,6 +1,11 @@
 print("You are Banquo, the friend of Macbeth thane of Glamis.")
-print("")
+input("")
 print("You are returning home from battle against the Norwegiens with Macbeth")
-print("")
+input("")
 print("You are riding horse back beside Macbeth on a mountain trail")
-print
+input("")
+print("The trail ahead is blocked by a large branch")
+input("")
+overaroundturn=input("Press 'o' to go over, 'a' to go around, or 't' to go around")
+while overaroundturn!=o or overaroundturn!=a or overaroundturn!=t:
+    
