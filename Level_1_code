@@ -1,3 +1,8 @@
+horse=2
+life=3
+pack=1
+Macbeth=1
+
 print("You are Banquo, the friend of Macbeth thane of Glamis.")
 input("")
 print("You are returning home from battle against the Norwegiens with Macbeth")
@@ -12,4 +17,23 @@ while overaroundturn!='o' and overaroundturn!='a' and overaroundturn!='t':
     print("Press a different key")
     print("")
     overaroundturn=input("Press 'o' to go over, 'a' to go around, or 't' to go back ")
-if overaroundturn=='t'
+if overaroundturn=='o':
+    print("")
+    print("Your horse gets scared by a clap of thunder and bucks you off")
+    horse=1
+    input("")
+    print("You walk beside Macbeth")
+if overaroundturn=='a':
+    
+    ..............................
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .
+    
