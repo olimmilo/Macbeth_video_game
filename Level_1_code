@@ -9,7 +9,7 @@ print("You are returning home from battle against the Norwegiens with Macbeth")
 input("")
 print("You are riding horse back beside Macbeth on a mountain trail")
 input("")
-print("The trail ahead is blocked by a large branch")
+print("The trail ahead is blocked by a large log")
 input("")
 overaroundturn=input("Press 'o' to go over, 'a' to go around, or 't' to go back")
 while overaroundturn!='o' and overaroundturn!='a' and overaroundturn!='t':
@@ -24,16 +24,10 @@ if overaroundturn=='o':
     input("")
     print("You walk beside Macbeth")
 if overaroundturn=='a':
-    
-    ..............................
-    
+    print("You successfully surmount the log")
     
     
     
     
     
-    
-    
-    
-    .
-    
+      
