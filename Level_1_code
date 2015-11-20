@@ -6,9 +6,10 @@ print("You are riding horse back beside Macbeth on a mountain trail")
 input("")
 print("The trail ahead is blocked by a large branch")
 input("")
-overaroundturn=input("Press 'o' to go over, 'a' to go around, or 't' to go around")
-while overaroundturn!='o' or overaroundturn!='a' or overaroundturn!='t':
+overaroundturn=input("Press 'o' to go over, 'a' to go around, or 't' to go back")
+while overaroundturn!='o' and overaroundturn!='a' and overaroundturn!='t':
     print("")
     print("Press a different key")
     print("")
-    overaroundturn=input("Press 'o' to go over, 'a' to go around, or 't' to go around")
+    overaroundturn=input("Press 'o' to go over, 'a' to go around, or 't' to go back ")
+if overaroundturn=='t'
