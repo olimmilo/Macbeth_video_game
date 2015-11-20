@@ -25,9 +25,7 @@ if overaroundturn=='o':
     print("You walk beside Macbeth")
 if overaroundturn=='a':
     print("You successfully surmount the log")
-    
-    
-    
-    
-    
-      
+if overaroundturn=='t':
+    print('You are attacked by norweigign assasins')
+    input('')
+    print("Press")
