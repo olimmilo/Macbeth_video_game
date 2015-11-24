@@ -38,3 +38,6 @@ if overaroundturn=='t':
         print('')
         horse=horse+1
 ##gotten past the log
+
+print('You come to a junction')
+print('To your left you your her monks chanting and to your right you hear a creaking coming from the mist')
