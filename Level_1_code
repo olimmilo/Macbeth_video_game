@@ -40,4 +40,9 @@ if overaroundturn=='t':
 ##gotten past the log
 
 print('You come to a junction')
+print('')
 print('To your left you your her monks chanting and to your right you hear a creaking coming from the mist')
+print('')
+mountainbridgelr=input("Press 'l' to go left or 'r' to go right")
+
+##bridge or mountain
