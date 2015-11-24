@@ -20,7 +20,7 @@ while overaroundturn!='o' and overaroundturn!='a' and overaroundturn!='t':
 if overaroundturn=='o':
     print("")
     print("Your horse gets scared by a clap of thunder and bucks you off")
-    horse=1
+    horse=horse-1
     input("")
     print("You walk beside Macbeth")
 if overaroundturn=='a':
@@ -28,4 +28,13 @@ if overaroundturn=='a':
 if overaroundturn=='t':
     print('You are attacked by norweigign assasins')
     input('')
-    print("Press")
+    fleeorfight=input("Press 'f' to flee or 'k' to fight ")
+    print('')
+    if fleeorfight =='f':
+        print('You escape and hide behind the log until they leave')
+        print('')
+    if fleeorfight =='k':
+        print('You kill them all, steal their horse, and you and Macbeth procced past the logs')
+        print('')
+        horse=horse+1
+##gotten past the log
