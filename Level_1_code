@@ -17,6 +17,7 @@ while overaroundturn!='o' and overaroundturn!='a' and overaroundturn!='t':
     print("Press a different key")
     print("")
     overaroundturn=input("Press 'o' to go over, 'a' to go around, or 't' to go back ")
+    print("")
 if overaroundturn=='o':
     print("")
     print("Your horse gets scared by a clap of thunder and bucks you off")
@@ -46,3 +47,4 @@ print('')
 mountainbridgelr=input("Press 'l' to go left or 'r' to go right")
 
 ##bridge or mountain
+
