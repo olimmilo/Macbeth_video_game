@@ -2,6 +2,8 @@ horse=2
 life=3
 pack=1
 Macbeth=1
+pgnpt=0
+chspt=0
 
 print("You are Banquo, the friend of Macbeth thane of Glamis.")
 input("")
@@ -12,6 +14,9 @@ input("")
 print("The trail ahead is blocked by a large log")
 input("")
 overaroundturn=input("Press 'o' to go over, 'a' to go around, or 't' to go back")
+
+##log
+
 while overaroundturn!='o' and overaroundturn!='a' and overaroundturn!='t':
     print("")
     print("Press a different key")
@@ -41,6 +46,7 @@ if overaroundturn=='t':
         print('You kill them all, steal their horse, and you and Macbeth procced past the logs')
         print('')
         horse=horse+1
+        
 ##gotten past the log
 
 print('You come to a junction')
@@ -51,3 +57,5 @@ mountainbridgelr=input("Press 'l' to go left or 'r' to go right")
 
 ##bridge or mountain
 
+if mountainbridgelr==r:
+    
