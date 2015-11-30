@@ -24,6 +24,9 @@ if overaroundturn=='o':
     horse=horse-1
     input("")
     print("You walk beside Macbeth")
+    print("")
+    overaroundturn=input("Press 'a' to go around, or 't' to go back")
+    print("")
 if overaroundturn=='a':
     print("You successfully surmount the log")
 if overaroundturn=='t':
