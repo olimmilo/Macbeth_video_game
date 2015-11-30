@@ -4,6 +4,7 @@ pack=1
 Macbeth=1
 pgnpt=0
 chspt=0
+key=0
 
 print("You are Banquo, the friend of Macbeth thane of Glamis.")
 input("")
@@ -70,4 +71,13 @@ if mountainbridgelr==r:
         print('')
         print('To the front ofthe door lies a key with a note')
         print('')
+        print('The note reads "The key guides he who requires guidance"')
         print('')
+        keyadd1=input("Press 't' to take the key or 'l' to leave it")
+        if keyadd1=='t':
+            key=key+1
+    print('You decend down the hill and take the other fork')
+    
+##gotten past mountain
+
+print('You approach a rickety looking bridge')
