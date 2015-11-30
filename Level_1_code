@@ -51,11 +51,23 @@ if overaroundturn=='t':
 
 print('You come to a junction')
 print('')
-print('To your left you your her monks chanting and to your right you hear a creaking coming from the mist')
+print('To your left you your hear monks chanting and to your right you hear a creaking coming from the mist')
 print('')
 mountainbridgelr=input("Press 'l' to go left or 'r' to go right")
 
 ##bridge or mountain
 
 if mountainbridgelr==r:
-    
+    chspt=chspt+1
+    print('')
+    print('You come to a mountain trail, at the top you can see a shack bathed in sunlight')
+    print('')
+    mountainbridgelr=input("Press 's' to stay or 't' to turn back")
+    if mountainbridgelr=='s':
+        chspt=chspt+1
+        print('')
+        print('You approach the shack')
+        print('')
+        print('To the front ofthe door lies a key with a note')
+        print('')
+        print('')
