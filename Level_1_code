@@ -80,4 +80,34 @@ if mountainbridgelr==r:
     
 ##gotten past mountain
 
-print('You approach a rickety looking bridge')
+print('')
+print('In front of you lies a rickety old looking bridge')
+input('')
+print('It is covered in cracks and looks like some parts may be completely rotted out')
+print('')
+crossgoback=input("Press 'c' to cross or 't' to turn back")
+if crossgoback=='t':
+    chspt=chspt+1 ##check if this is the correct variable
+    print('You turn to go back, but you hear wolves and realize that the sun is setting')
+    input('')
+    print('You must hurry to find a place to set up camp')
+    input('')
+    print('Macbeth commands that you must cross the bridge')
+print('')
+howmany=input('How many should cross the bridge at a time (value between 1 and 4)')
+print('')
+howfast=input('How fast will you cross ((value between 1 and 4))')
+howfast=int(howfast)
+howmany=int(howmany)
+howmanytrue=howfast/howmany
+if howmanytrue>=0.25 and howmanytrue<=0.75:
+    print('')
+    print('You all make it across')
+if howmanytrue<0.25:
+    print('')
+    print('Your horses get left behind, but both you and Macbeth are successful')
+    horse=0
+if howmanytrue>0.75:
+    print('')
+    print('You and Macbeth are successful, but in the rush the bridge breaks and both of your horses fall into the chasm and die')
+    horse=0
