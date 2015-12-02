@@ -58,7 +58,7 @@ mountainbridgelr=input("Press 'l' to go left or 'r' to go right")
 
 ##bridge or mountain
 
-if mountainbridgelr==r:
+if mountainbridgelr=='r':
     chspt=chspt+1
     print('')
     print('You come to a mountain trail, at the top you can see a shack bathed in sunlight')
@@ -87,7 +87,7 @@ print('It is covered in cracks and looks like some parts may be completely rotte
 print('')
 crossgoback=input("Press 'c' to cross or 't' to turn back")
 if crossgoback=='t':
-    chspt=chspt+1 ##check if this is the correct variable
+    chspt=chspt+1 
     print('You turn to go back, but you hear wolves and realize that the sun is setting')
     input('')
     print('You must hurry to find a place to set up camp')
