@@ -25,6 +25,8 @@ while play!='q':
                 if lvlnum>2:
                     print("Level 3:Macduff and the Battle")
                     print("")
+                print("Strike '-1' to quit")
+                print("")
                 lvl=int(input("Input Level #: "))
                 if lvl>lvlnum:
                     while lvl>lvlnum:
