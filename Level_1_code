@@ -2,7 +2,6 @@ horse=2
 life=3
 pack=1
 Macbeth=1
-pgnpt=0
 chspt=0
 key=0
 
@@ -111,3 +110,22 @@ if howmanytrue>0.75:
     print('')
     print('You and Macbeth are successful, but in the rush the bridge breaks and both of your horses fall into the chasm and die')
     horse=0
+print('')
+print('Through the mist you see a heath and hear witches')
+print('')
+print('These unnatrual beings may be able to aid you and Banquo in some manner')
+print('')
+gotoheath=input('Do you advance towards the witches? y/n')
+if gotoheath='y':
+    f
+if gotoheath='n':
+    if chspt>2:
+        print('')
+        print('You go on to live a long, happy life, becoming the richest and most powerful thane of Scotland')
+        print('')
+        print('fin')
+    else:
+        print('')
+        print('You go on to live a fairly good life, maintaing your stature and wealth until your death in several years')
+        print('')
+        print('fin')
