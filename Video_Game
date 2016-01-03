@@ -39,7 +39,9 @@ while play!='q':
             print("")
             print("Level 1:Banquo and the Witches")
             print('')
-            import Level_1_code
+            
+            ##lvl 1 code
+            
             if lvlnum==1:
                 lvlnum=2
             lvl=0
