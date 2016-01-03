@@ -36,7 +36,7 @@ while play!='q':
             if lvlnum==1:
                 lvlnum=2
             lvl=0
-        while lvl==1:
+        while lvl==2:
             print("")
             print("Level 2:Macbeth and the Murder")
             if lvlnum==2:
