@@ -44,7 +44,7 @@ if overaroundturn=='t':
         print('You escape and hide behind the log until they leave')
         print('')
     if fleeorfight =='k':
-        print('You kill them all, steal their horse, and you and Macbeth procced past the logs')
+        print('You kill them all, steal their horse, and you and Banquo procced past the logs')
         print('')
         horse=horse+1
         
