@@ -130,8 +130,16 @@ if gotoheath=='y':
         print('')
         print('The witches give their prophecies')
         input('')
-        print('But although you and Banquo listened tho these unnatural beings, your 
+        print('But although you and Banquo listened tho these unnatural beings, your faith in the way of thing allowed you and Banquo to live out your lives normally')
+        input('')
+        print('fin')
     if keyjumpleave=='j'
+        print('')
+        print('The witches give their prophecies')
+        input('')
+        print('You go insane murdering and userping the thrown, only to be killed on the battlefield soon after')
+        input('')
+        print('fin')
     if keyjumpleave=='l':
         gotoheath='n'
 if gotoheath=='n':
