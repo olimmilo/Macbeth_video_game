@@ -29,11 +29,11 @@ while play!='q':
                 if lvlnum>2:
                     print("Level 3:Macduff and the Battle")
                     print("")
-                lvl=input("Input Level #: ")
+                lvl=int(input("Input Level #: "))
                 if lvl>lvlnum:
                     while lvl>lvlnum:
                         print("You are not permitted to access this level until you complete the former one(s)")
-                        lvl=input("Input Level #: ")
+                        lvl=int(input("Input Level #: "))
         while lvl==1:
             print("")
             print("Level 1:Banquo and the Witches")
