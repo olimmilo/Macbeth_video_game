@@ -124,7 +124,14 @@ if gotoheath=='y':
     keyuse=False
     if key==1:
         keyjumpleave=input("Press 'u' to use your key on the gate, 'j' to jump over the gate, or 'l' to leave")
-        
+    else:
+        keyjumpleave=input("Press 'j' to jump over the gate or 'l' to leave")
+    if keyjumpleave=='u':
+        print('')
+        print('The witches give their prophecy
+    if keyjumpleave=='j'
+    if keyjumpleave=='l':
+        gotoheath='n'
 if gotoheath=='n':
     if chspt>2:
         print('')
