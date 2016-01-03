@@ -117,7 +117,7 @@ print('These unnatrual beings may be able to aid you and Banquo in some manner')
 print('')
 gotoheath=input('Do you advance towards the witches? y/n')
 if gotoheath='y':
-    f
+    print('youssa')
 if gotoheath='n':
     if chspt>2:
         print('')
