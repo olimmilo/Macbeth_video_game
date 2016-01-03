@@ -114,7 +114,7 @@ if howmanytrue>0.75:
 input('')
 print('Through the mist you see a heath and hear witches')
 input('')
-print('These unnatrual beings may be able to aid you and Banquo in some manner')
+print('These unnatural beings may be able to aid you and Banquo in some manner')
 input('')
 gotoheath=input('Do you advance towards the witches? y/n ')
 if gotoheath=='y':
@@ -128,7 +128,9 @@ if gotoheath=='y':
         keyjumpleave=input("Press 'j' to jump over the gate or 'l' to leave")
     if keyjumpleave=='u':
         print('')
-        print('The witches give their prophecy
+        print('The witches give their prophecies')
+        input('')
+        print('But although you and Banquo listened tho these unnatural beings, your 
     if keyjumpleave=='j'
     if keyjumpleave=='l':
         gotoheath='n'
