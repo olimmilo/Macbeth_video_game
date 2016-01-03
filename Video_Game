@@ -34,7 +34,7 @@ while play!='q':
                         lvl=int(input("Input Level #: "))
         while lvl==-1:
             play='q'
-            print("")
+            lvl=0
         while lvl==1:
             print("")
             print("Level 1:Banquo and the Witches")
@@ -57,4 +57,5 @@ while play!='q':
         play=input("press 'p' to play or 'q' to quit ")
         print("")
 if play=='q':
+    print('')
     print("Goodbye!")
