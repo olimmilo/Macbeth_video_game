@@ -32,7 +32,7 @@ while play!='q':
                     while lvl>lvlnum:
                         print("You are not permitted to access this level until you complete the former one(s)")
                         lvl=int(input("Input Level #: "))
-        while lvl=-1:
+        while lvl==-1:
             play='q'
             print("")
         while lvl==1:
