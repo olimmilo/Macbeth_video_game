@@ -92,7 +92,7 @@ if crossgoback=='t':
     input('')
     print('You must hurry to find a place to set up camp')
     input('')
-    print('Macbeth commands that you must cross the bridge')
+    print('You must cross the bridge to survive')
 print('')
 howmany=input('How many should cross the bridge at a time (value between 1 and 4)')
 print('')
@@ -105,7 +105,7 @@ if howmanytrue>=0.25 and howmanytrue<=0.75:
     print('You all make it across')
 if howmanytrue<0.25:
     print('')
-    print('Your horses get left behind, but both you and Macbeth are successful')
+    print('Your horses get left behind, but both you and Banquo are successful')
     horse=0
 if howmanytrue>0.75:
     print('')
