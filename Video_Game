@@ -14,10 +14,6 @@ while play!='q':
     print("")
     if play=='p':
         while lvl==0:
-            if lvlnum>1:
-                quit0=input("Press 'q' if you want to quit ")
-                if quit0=='q':
-                   play='q'
             if play!='q':
                 print("Select level")
                 print("")
