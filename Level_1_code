@@ -133,7 +133,7 @@ if gotoheath=='y':
         print('But although you and Banquo listened tho these unnatural beings, your faith in the way of thing allowed you and Banquo to live out your lives normally')
         input('')
         print('fin')
-    if keyjumpleave=='j'
+    if keyjumpleave=='j':
         print('')
         print('The witches give their prophecies')
         input('')
