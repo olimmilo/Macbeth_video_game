@@ -47,7 +47,7 @@ while play!='q':
             chspt=0
             key=0
             
-            print("Macbeth thane of Glamis.")
+            print("You are Macbeth thane of Glamis.")
             input("")
             print("You are returning home from battle against the Norwegiens with your friend Banquo")
             input("")
