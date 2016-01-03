@@ -119,7 +119,12 @@ input('')
 gotoheath=input('Do you advance towards the witches? y/n ')
 if gotoheath=='y':
     print('')
-    print(
+    print('Upon approaching the heath, you see that it is surounded by a gate')
+    input('')
+    keyuse=False
+    if key==1:
+        keyjumpleave=input("Press 'u' to use your key on the gate, 'j' to jump over the gate, or 'l' to leave")
+        
 if gotoheath=='n':
     if chspt>2:
         print('')
