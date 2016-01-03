@@ -5,11 +5,11 @@ Macbeth=1
 chspt=0
 key=0
 
-print("You are Banquo, the friend of Macbeth thane of Glamis.")
+print("Macbeth thane of Glamis.")
 input("")
-print("You are returning home from battle against the Norwegiens with Macbeth")
+print("You are returning home from battle against the Norwegiens with your friend Banquo")
 input("")
-print("You are riding horse back beside Macbeth on a mountain trail")
+print("You are riding horse back beside Banquo on a mountain trail")
 input("")
 print("The trail ahead is blocked by a large log")
 input("")
@@ -28,7 +28,7 @@ if overaroundturn=='o':
     print("Your horse gets scared by a clap of thunder and bucks you off")
     horse=horse-1
     input("")
-    print("You walk beside Macbeth")
+    print("You walk beside Banquo")
     print("")
     overaroundturn=input("Press 'a' to go around, or 't' to go back")
     print("")
