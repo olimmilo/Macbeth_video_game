@@ -37,11 +37,165 @@ while play!='q':
             lvl=0
         while lvl==1:
             print("")
-            print("Level 1:Banquo and the Witches")
+            print("Level 1:Macbeth and the Witches")
             print('')
             
-            ##lvl 1 code
+            horse=2
+            life=3
+            pack=1
+            Macbeth=1
+            chspt=0
+            key=0
             
+            print("Macbeth thane of Glamis.")
+            input("")
+            print("You are returning home from battle against the Norwegiens with your friend Banquo")
+            input("")
+            print("You are riding horse back beside Banquo on a mountain trail")
+            input("")
+            print("The trail ahead is blocked by a large log")
+            input("")
+            overaroundturn=input("Press 'o' to go over, 'a' to go around, or 't' to go back ")
+            
+            ##log
+            
+            while overaroundturn!='o' and overaroundturn!='a' and overaroundturn!='t':
+                print("")
+                print("Press a different key")
+                print("")
+                overaroundturn=input("Press 'o' to go over, 'a' to go around, or 't' to go back ")
+                print("")
+            if overaroundturn=='o':
+                print("")
+                print("Your horse gets scared by a clap of thunder and bucks you off")
+                horse=horse-1
+                input("")
+                print("You walk beside Banquo")
+                print("")
+                overaroundturn=input("Press 'a' to go around, or 't' to go back")
+                print("")
+            if overaroundturn=='a':
+                print("You successfully surmount the log")
+                print('')
+            if overaroundturn=='t':
+                print('You are attacked by norweigign assasins')
+                input('')
+                fleeorfight=input("Press 'f' to flee or 'k' to fight ")
+                print('')
+                if fleeorfight =='f':
+                    print('You escape and hide behind the log until they leave')
+                    print('')
+                if fleeorfight =='k':
+                    print('You kill them all, steal their horse, and you and Banquo procced past the logs')
+                    print('')
+                    horse=horse+1
+                    
+            ##gotten past the log
+            
+            print('You come to a junction')
+            print('')
+            print('To your left you your hear monks chanting and to your right you hear a creaking coming from the mist')
+            print('')
+            mountainbridgelr=input("Press 'l' to go left or 'r' to go right ")
+            
+            ##bridge or mountain
+            
+            if mountainbridgelr=='l':
+                chspt=chspt+1
+                print('')
+                print('You come to a mountain trail, at the top you can see a shack bathed in sunlight')
+                print('')
+                mountainbridgelr=input("Press 's' to stay or 't' to turn back ")
+                if mountainbridgelr=='s':
+                    chspt=chspt+1
+                    print('')
+                    print('You approach the shack')
+                    print('')
+                    print('To the front ofthe door lies a key with a note')
+                    print('')
+                    print('The note reads "The key guides he who requires guidance"')
+                    print('')
+                    keyadd1=input("Press 't' to take the key or 'l' to leave it")
+                    if keyadd1=='t':
+                        key=key+1
+                print('You decend down the hill and take the other fork')
+                
+            ##gotten past mountain
+            
+            print('')
+            print('In front of you lies a rickety old looking bridge')
+            input('')
+            print('It is covered in cracks and looks like some parts may be completely rotted out')
+            print('')
+            crossgoback=input("Press 'c' to cross or 't' to turn back ")
+            if crossgoback=='t':
+                chspt=chspt+1 
+                print('You turn to go back, but you hear wolves and realize that the sun is setting')
+                input('')
+                print('You must hurry to find a place to set up camp')
+                input('')
+                print('You must cross the bridge to survive')
+            print('')
+            howmany=input('How many should cross the bridge at a time (value between 1 and 4)')
+            print('')
+            howfast=input('How fast will you cross ((value between 1 and 4))')
+            howfast=int(howfast)
+            howmany=int(howmany)
+            howmanytrue=howfast/howmany
+            if howmanytrue>=0.25 and howmanytrue<=0.75:
+                print('')
+                print('You all make it across')
+            if howmanytrue<0.25:
+                print('')
+                print('Your horses get left behind, but both you and Banquo are successful')
+                horse=0
+            if howmanytrue>0.75:
+                print('')
+                print('You and Macbeth are successful, but in the rush the bridge breaks and both of your horses fall into the chasm and die')
+                horse=0
+            input('')
+            print('Through the mist you see a heath and hear witches')
+            input('')
+            print('These unnatural beings may be able to aid you and Banquo in some manner')
+            input('')
+            gotoheath=input('Do you advance towards the witches? y/n ')
+            if gotoheath=='y':
+                print('')
+                print('Upon approaching the heath, you see that it is surounded by a gate')
+                input('')
+                keyuse=False
+                if key==1:
+                    keyjumpleave=input("Press 'u' to use your key on the gate, 'j' to jump over the gate, or 'l' to leave")
+                else:
+                    keyjumpleave=input("Press 'j' to jump over the gate or 'l' to leave")
+                if keyjumpleave=='u':
+                    print('')
+                    print('The witches give their prophecies')
+                    input('')
+                    print('But although you and Banquo listened tho these unnatural beings, your faith in the way of thing allowed you and Banquo to live out your lives normally')
+                    input('')
+                    print('fin')
+                if keyjumpleave=='j':
+                    print('')
+                    print('The witches give their prophecies')
+                    input('')
+                    print('You go insane murdering and userping the thrown, only to be killed on the battlefield soon after')
+                    input('')
+                    print('fin')
+                if keyjumpleave=='l':
+                    gotoheath='n'
+            if gotoheath=='n':
+                if chspt>2:
+                    print('')
+                    print('You go on to live a long, happy life, becoming the richest and most powerful thane of Scotland')
+                    input('')
+                    print('fin')
+                else:
+                    print('')
+                    print('You go on to live a fairly good life, maintaing your stature and wealth until your death in several years')
+                    input('')
+                    print('fin')
+
             if lvlnum==1:
                 lvlnum=2
             lvl=0
@@ -53,7 +207,7 @@ while play!='q':
             lvl=0
         while lvl==3:
             print("")
-            print("Level 3:Macduff and the Battle")
+            print("Level 3:Macbeth and the Battle")
             lvl=0
     elif play!='p':
         print("Did not understand, try again.")
