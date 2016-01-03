@@ -13,7 +13,7 @@ print("You are riding horse back beside Macbeth on a mountain trail")
 input("")
 print("The trail ahead is blocked by a large log")
 input("")
-overaroundturn=input("Press 'o' to go over, 'a' to go around, or 't' to go back")
+overaroundturn=input("Press 'o' to go over, 'a' to go around, or 't' to go back ")
 
 ##log
 
@@ -34,6 +34,7 @@ if overaroundturn=='o':
     print("")
 if overaroundturn=='a':
     print("You successfully surmount the log")
+    print('')
 if overaroundturn=='t':
     print('You are attacked by norweigign assasins')
     input('')
@@ -53,16 +54,16 @@ print('You come to a junction')
 print('')
 print('To your left you your hear monks chanting and to your right you hear a creaking coming from the mist')
 print('')
-mountainbridgelr=input("Press 'l' to go left or 'r' to go right")
+mountainbridgelr=input("Press 'l' to go left or 'r' to go right ")
 
 ##bridge or mountain
 
-if mountainbridgelr=='r':
+if mountainbridgelr=='l':
     chspt=chspt+1
     print('')
     print('You come to a mountain trail, at the top you can see a shack bathed in sunlight')
     print('')
-    mountainbridgelr=input("Press 's' to stay or 't' to turn back")
+    mountainbridgelr=input("Press 's' to stay or 't' to turn back ")
     if mountainbridgelr=='s':
         chspt=chspt+1
         print('')
@@ -84,7 +85,7 @@ print('In front of you lies a rickety old looking bridge')
 input('')
 print('It is covered in cracks and looks like some parts may be completely rotted out')
 print('')
-crossgoback=input("Press 'c' to cross or 't' to turn back")
+crossgoback=input("Press 'c' to cross or 't' to turn back ")
 if crossgoback=='t':
     chspt=chspt+1 
     print('You turn to go back, but you hear wolves and realize that the sun is setting')
